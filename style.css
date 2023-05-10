@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font: font-family: 'Noto Sans JP', sans-serif;
+}
+
+#page-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+}
