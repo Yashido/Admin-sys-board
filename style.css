@@ -14,7 +14,7 @@
     grid-template-rows: 1fr 4fr;
 }
 
-.header-section {
+.header-wrapper {
     display: flex;
     flex-direction: column;
 }
