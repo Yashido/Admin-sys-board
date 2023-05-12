@@ -15,11 +15,10 @@
     grid-template-rows: 1fr 3fr;
     height: 100vh;
     width: 100vw;
+    font-family: var(--font);
 }
 
 .header-wrapper {
-    display: flex;
-    flex-direction: column;
 
     grid-column : 2 / 4;
     grid-row: 1 / 2;
@@ -42,8 +41,13 @@
     border: solid blue;
 }
     .logo-name-container {
-
+        display: flex;
+        justify-content: flex-start ;
+        align-items: center;
     }
+        .logo-name {
+            font-size: clamp(32px, 4vw, 48px);
+        }
 
     .user-naviagtion-container {
 
@@ -70,6 +74,11 @@
 
 .side-wrapper {
 
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+    border: pink solid;
+
 }
     .annoucements-container {
 
@@ -77,3 +86,9 @@
     .trending-contaienr {
 
     }
+
+/* Icon sizing */
+
+.icon-size {
+    height: clamp(16px, 40px, 5vw);
+}
