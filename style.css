@@ -37,6 +37,9 @@
     }
 
 .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     gap: 40px;
 
     grid-column: 1 / 2;
@@ -54,7 +57,7 @@
         }
 
     .user-naviagtion-container {
-
+        
     }
         .navigation-list-container {
 
