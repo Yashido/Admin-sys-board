@@ -54,7 +54,7 @@
         align-items: center;
     }
         .logo-name {
-            font-size: clamp(32px, 4vw, 48px);
+            font-size: clamp(24px, 4vw, 32px);
             color: white;
         }
 
@@ -82,6 +82,11 @@
     .link {
         text-decoration-style: none;
         color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none;
+
+        display: flex;
+        place-items: center;
     }
 
 .main-wrapper {
