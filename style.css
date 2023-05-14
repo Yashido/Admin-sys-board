@@ -41,6 +41,8 @@
     flex-direction: column;
     overflow: hidden;
     gap: 40px;
+    padding-left: 1rem;
+    padding-top: 1rem;
     background-color: var(--main-color);
 
     grid-column: 1 / 2;
@@ -62,14 +64,14 @@
         
     }
         .navigation-list-container {
-
+            list-style-type: none;
         }
 
     .user-settings-container {
 
     }
         .user-settings-list-container {
-
+            list-style-type: none;
         }
 
 /* Link and list */
