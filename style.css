@@ -38,8 +38,7 @@
 
         .user-section {
             display: flex;
-            flex-direction: row;
-            flex: 1;
+            flex-direction: column;
         }
 
     .lower-header {
