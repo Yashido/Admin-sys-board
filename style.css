@@ -30,6 +30,7 @@
 }
     .upper-header {
         display: flex;
+        justify-content: space-between;
     }
         .search-wrapper {
             display: flex;
@@ -37,6 +38,8 @@
         }
             .search-bar {
                 border: none;
+                background-color: grey;
+                border-radius: 3rem;
             }
 
         .user-section {
@@ -53,7 +56,16 @@
     .lower-header {
 
     }
+        .user-account-icon-lower {
+            height: clamp(32px, 50px, 5vw);
+        }
 
+        .greeting-user-account {
+            display: flex;
+        }
+        .greeting {
+
+        }
 .nav-wrapper {
     display: flex;
     flex-direction: column;
