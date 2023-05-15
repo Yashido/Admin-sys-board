@@ -29,24 +29,26 @@
     border: solid rgb(255, 0, 0);
 }
     .upper-header {
-
+        display: flex;
     }
         .search-wrapper {
             display: flex;
             flex-direction: row;
         }
+            .search-bar {
+                border: none;
+            }
 
         .user-section {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
         }
             .user-account-icon{
-                width: 2vw;
-                border-radius: 2vw;
+                height: clamp(16px, 40px, 5vw);
             }
 
             .user-account-name {
-                
+                font-size: clamp(24px, 4vw, 32px);
             }
     .lower-header {
 
