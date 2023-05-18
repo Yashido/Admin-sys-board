@@ -151,7 +151,7 @@
     .main-content-container {
         flex: 1;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 405px));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
         gap: 20px;
         overflow: hidden;
     }
@@ -196,8 +196,11 @@
 .side-wrapper {
     padding-top: 2vw;
     padding-left: 1vw;
+    padding-right: 1vw;
+
     display: flex;
     flex-direction: column;
+    
     grid-column: 3 / 4;
     grid-row: 2 / 3;
 
@@ -215,6 +218,8 @@
             background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
+
+            box-shadow: 0 10px 10px #d4d4d4;
         }
 
             .announcements-card > hr {
@@ -225,14 +230,22 @@
                 
             }
                 .announcement-content {
+                    padding-top: 5px;
                     font-size: 12px;
                     color: #757575;
                     height: 60px;
                     overflow: hidden;
                 }
-    .trending-contaienr {
+    .trending-container {
+        display: flex;
+        flex-direction: column;
 
+        padding-top: 40px;
+        
     }
+        .trending-heading {
+            padding-bottom: 1vh;
+        }
 
 /* Icon sizing */
 
