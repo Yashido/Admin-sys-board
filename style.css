@@ -165,6 +165,9 @@
 
             width: 400px;
             height: 210px;
+
+            display: flex;
+            flex-direction: column;
         }
 
             .card-header {
@@ -172,9 +175,18 @@
             }
             
             .text-content {
+                flex: 1;
                 font-size: 14px;
                 color: #757575;
                 overflow: hidden;
+            }
+
+            .card-icons-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                padding-right: 20px;
+                gap: 20px;
             }
 .side-wrapper {
 
@@ -201,5 +213,9 @@
 
 .icon-size-color {
     fill: rgb(0, 0, 0);
-    height: clamp(16px, 40px, 5vw);
+    height: clamp(16px, 40px, 4vh);
+}
+
+.card-icons {
+    height: clamp(14px, 25px, 4vh);
 }
