@@ -12,7 +12,7 @@
 #page-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
 
     height: 100vh;
     width: 100vw;
@@ -249,14 +249,34 @@
             flex: 1;
             background-color: #ffffff;
             padding: 20px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
             border-radius: 10px;
 
             box-shadow: 0 10px 10px #d4d4d4;
         }
             .user-account-card {
-                
+                display: flex; 
             }
+                .user-icon {
+                    height: clamp(40px, 50px, 5vh);
+                }
 
+                .user-account-handle-container {
+                    padding-left: 10px;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    justify-content: center;
+                }
+                    .user-handle {
+                        font-weight: 500;
+                    }
+                    .user-username {
+                        color: #757575;
+                    }
 /* Icon sizing */
 
 .icon-size {
