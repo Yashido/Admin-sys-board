@@ -53,35 +53,51 @@
                 height: clamp(16px, 40px, 5vw);
             }
 
-            .user-account-name {
+            .user-account-name-upper {
                 font-size: clamp(24px, 4vw, 32px);
             }
     .lower-header {
         display: flex;
-
+        justify-content: space-between;
         margin: 5px;
     }
-        .user-account-icon-lower {
-            height: clamp(32px, 50px, 5vw);
-        }
-
-        .greeting-user-account {
+        .lower-header-user {
             display: flex;
-            flex-direction: column;
+            gap: 20px;
         }
-            .greeting {
-
+            .user-account-icon-lower {
+                height: clamp(32px, 50px, 5vw);
             }
+
+            .greeting-user-account {
+                display: flex;
+                flex-direction: column;
+            }
+                .greeting {
+
+                }
             
-            .user-account-name {
-                
+            .user-account-name-lower {
+                font-size: clamp(26px, 28px, 30px);
             }
         .user-upload-container {
-
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
         }
             .user-button {
-                padding: 10px;
+                width: 100px;
+                height: 40px;
+
+                background-color: #41b3ff;
+                border: none;
+                border-radius: 30px;
+
+                font-size: medium;
+                font-weight: 700;
+                color: #ffffff;
             }
+
 .nav-wrapper {
     display: flex;
     flex-direction: column;
