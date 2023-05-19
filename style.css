@@ -37,24 +37,30 @@
         .search-wrapper {
             display: flex;
             flex-direction: row;
+            align-items: center;
         }
             .search-bar {
                 border: none;
                 background-color: rgb(228, 228, 228);
                 border-radius: 3rem;
+
+                padding-left: 20px;
                 width: 50vw;
+                height: 32px;
             }
 
         .user-section {
             display: flex;
             flex-direction: row;
+            align-items: center;
+            gap: 20px;
         }
             .user-account-icon{
-                height: clamp(16px, 40px, 5vw);
+                height: clamp(48px, 52px, 55px);
             }
 
             .user-account-name-upper {
-                font-size: clamp(24px, 4vw, 32px);
+                font-size: clamp(20px, 24px, 26px);
             }
     .lower-header {
         display: flex;
